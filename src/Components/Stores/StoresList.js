@@ -6,7 +6,7 @@ const StoresList = () => {
   const { farmacias } = stores;
 
   return (
-    <div className="container">
+    <>
       <div className="row">
         <div className="navbar navbar-dark bg-secondary justify-content-center mb-3">
           <h1 className="strong">Farmacias</h1>
@@ -32,7 +32,7 @@ const StoresList = () => {
         ))}
         <h1>Opticas</h1>
       </div>
-    </div>
+    </>
   );
 };
 
