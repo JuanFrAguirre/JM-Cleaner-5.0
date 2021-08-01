@@ -1,0 +1,18 @@
+.stores {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px 20px;
+  padding: 40px 0;
+}
+
+@media (min-width: 600px) {
+  .stores {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .stores {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
