@@ -23,7 +23,7 @@ function App() {
                 style={{ color: "#fff", textDecoration: "none" }}
                 to="/home"
               >
-                Inicio
+                Home
               </Link>
               <Link
                 style={{ color: "#fff", textDecoration: "none" }}
