@@ -17,7 +17,7 @@ function App() {
       <Router>
         <div className="navbar navbar-dark bg-dark">
           <div className="container d-flex justify-content-between">
-            <h1 className="text-muted">JM Cleaner</h1>
+            <h1 style={{ color: "#fff" }}>JM Cleaner</h1>
             <nav className="d-flex gap-3">
               <Link
                 style={{ color: "#fff", textDecoration: "none" }}
